@@ -28,13 +28,13 @@ struct LaunchButton: View {
 }
 
 struct Button_Previews: PreviewProvider {
-   var x = 2
+   
     static var previews: some View {
         ZStack {
             Color(.black)
-            LaunchButton(title: "START", function:  )
+           // LaunchButton(title: "START", function: )
         }
     }
     
-    private func emptyFunction() {}
+    
 }
