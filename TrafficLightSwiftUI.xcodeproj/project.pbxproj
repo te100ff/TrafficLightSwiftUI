@@ -58,8 +58,8 @@
 			children = (
 				18346D7E2666BA2800A51AE6 /* TrafficLightSwiftUIApp.swift */,
 				18346D802666BA2800A51AE6 /* ContentView.swift */,
-				18346D8F2666BE7900A51AE6 /* LaunchButton.swift */,
 				18346D8D2666BA8A00A51AE6 /* ColorCircle.swift */,
+				18346D8F2666BE7900A51AE6 /* LaunchButton.swift */,
 				18346D822666BA2900A51AE6 /* Assets.xcassets */,
 				18346D872666BA2900A51AE6 /* Info.plist */,
 				18346D842666BA2900A51AE6 /* Preview Content */,
