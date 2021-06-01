@@ -12,14 +12,13 @@ struct ColorCircle: View {
     let opacity: Double
     
     var body: some View {
-            Circle()
-                .foregroundColor(color)
-                .frame(width: 100, height: 100)
-                .overlay(Circle().stroke(Color.white, lineWidth: 5))
-                .opacity(opacity)
-        }
+        Circle()
+            .foregroundColor(color)
+            .frame(width: 100, height: 100)
+            .overlay(Circle().stroke(Color.white, lineWidth: 5))
+            .opacity(opacity)
     }
-
+}
 
 struct ColorCirclePreviews: PreviewProvider {
     static var previews: some View {

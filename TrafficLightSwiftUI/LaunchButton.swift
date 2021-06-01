@@ -23,16 +23,16 @@ struct LaunchButton: View {
         .background(Color(.systemBlue))
         .cornerRadius(15)
         .overlay(RoundedRectangle(cornerRadius: 15).stroke(Color.white, lineWidth: 5))
-            
+        
     }
 }
 
 struct Button_Previews: PreviewProvider {
-   
+    
     static var previews: some View {
         ZStack {
             Color(.black)
-           // LaunchButton(title: "START", function: )
+            // LaunchButton(title: "START", function: )
         }
     }
     

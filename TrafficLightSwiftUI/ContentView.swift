@@ -32,14 +32,14 @@ struct ContentView: View {
                 ColorCircle(color: .green, opacity: greenLight)
                 Spacer()
                 LaunchButton(title: title, function: switchingLights)
-
+                
             }.padding(.bottom, 50)
         }
     }
     
     func switchingLights() {
         title = "NEXT"
-
+        
         switch currentLight {
         case .red:
             redLight = opacityOn
