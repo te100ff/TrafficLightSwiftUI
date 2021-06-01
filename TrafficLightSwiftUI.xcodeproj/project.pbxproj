@@ -11,7 +11,7 @@
 		18346D812666BA2800A51AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18346D802666BA2800A51AE6 /* ContentView.swift */; };
 		18346D832666BA2900A51AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18346D822666BA2900A51AE6 /* Assets.xcassets */; };
 		18346D862666BA2900A51AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18346D852666BA2900A51AE6 /* Preview Assets.xcassets */; };
-		18346D8E2666BA8A00A51AE6 /* Color Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18346D8D2666BA8A00A51AE6 /* Color Circle.swift */; };
+		18346D8E2666BA8A00A51AE6 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18346D8D2666BA8A00A51AE6 /* ColorCircle.swift */; };
 		18346D902666BE7900A51AE6 /* LaunchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18346D8F2666BE7900A51AE6 /* LaunchButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +22,7 @@
 		18346D822666BA2900A51AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18346D852666BA2900A51AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18346D872666BA2900A51AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18346D8D2666BA8A00A51AE6 /* Color Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Circle.swift"; sourceTree = "<group>"; };
+		18346D8D2666BA8A00A51AE6 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 		18346D8F2666BE7900A51AE6 /* LaunchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 				18346D7E2666BA2800A51AE6 /* TrafficLightSwiftUIApp.swift */,
 				18346D802666BA2800A51AE6 /* ContentView.swift */,
 				18346D8F2666BE7900A51AE6 /* LaunchButton.swift */,
-				18346D8D2666BA8A00A51AE6 /* Color Circle.swift */,
+				18346D8D2666BA8A00A51AE6 /* ColorCircle.swift */,
 				18346D822666BA2900A51AE6 /* Assets.xcassets */,
 				18346D872666BA2900A51AE6 /* Info.plist */,
 				18346D842666BA2900A51AE6 /* Preview Content */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18346D812666BA2800A51AE6 /* ContentView.swift in Sources */,
-				18346D8E2666BA8A00A51AE6 /* Color Circle.swift in Sources */,
+				18346D8E2666BA8A00A51AE6 /* ColorCircle.swift in Sources */,
 				18346D7F2666BA2800A51AE6 /* TrafficLightSwiftUIApp.swift in Sources */,
 				18346D902666BE7900A51AE6 /* LaunchButton.swift in Sources */,
 			);
