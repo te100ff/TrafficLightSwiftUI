@@ -13,11 +13,12 @@ struct LaunchButton: View {
     
     var body: some View {
         
-        Button(action: { function() }, label: {
+        Button(action: function) {
             Text(title)
                 .font(.title)
                 .bold()
-        })
+        }
+        
         .foregroundColor(.white)
         .frame(width: 250, height: 60)
         .background(Color(.systemBlue))
@@ -32,7 +33,7 @@ struct Button_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color(.black)
-            // LaunchButton(title: "START", function: )
+            LaunchButton(title: "START", function: {} )
         }
     }
     

@@ -12,14 +12,13 @@ enum CurrentLight {
 }
 
 struct ContentView: View {
-    @State var title = "START"
-    @State var redLight: Double
-    @State var yellowLight: Double
-    @State var greenLight: Double
-    @State var currentLight = CurrentLight.red
+    @State private var title = "START"
+    @State private var redLight = 0.3
+    @State private var yellowLight = 0.3
+    @State private var greenLight = 0.3
+    @State private var currentLight = CurrentLight.red
     
-    private let opacityOn = 1.0
-    private let opacityOff = 0.3
+    
     
     
     var body: some View {
@@ -37,8 +36,11 @@ struct ContentView: View {
         }
     }
     
-    func switchingLights() {
+    private func switchingLights() {
         title = "NEXT"
+        
+        let opacityOn = 1.0
+        let opacityOff = 0.3
         
         switch currentLight {
         case .red:
@@ -61,7 +63,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(redLight: 0.3, yellowLight: 0.3, greenLight: 0.3)
+        ContentView()
     }
 }
 
